@@ -277,7 +277,7 @@ module.exports = {
 |:---:|:----:|
 |![](https://images.velog.io/images/tjdwns5123/post/e46f3363-635c-40db-b9a3-6db6dd910ff4/image.png)|![](https://images.velog.io/images/tjdwns5123/post/2af831ff-4398-4a16-ba43-fcc86b021a18/image.png)|
 
-결과적으로 두 진입점에서 공통적으로 사용하는 벤더 모듈은 별도의 번들 파일에 생성되어 위치하게 되었으며 기존의 진입점 파일에서는 상호 배타적으로 사용하는 모듈들만 남게 된다.
+결과적으로 두 진입점에서 사용하는 모든 외부 벤더 모듈은 별도의 번들 파일에 생성되어 위치하게 되었으며 기존의 진입점 파일에서는 내부적으로 사용하는 모듈들만 상호 배타적으로 남게 된다.
 
 <hr />
 
